@@ -15,7 +15,6 @@ class Airplane:
 
 su = Airplane("Sukhoi",100,100)
 f_16 = Airplane("Fighting Falcon",100,100)
-airplanes = [su,f_16]
 
 print(f"round\tname      \thealth/ammo\t:\tname      \thealth/ammo")
 print(f"***************************************************************************")
