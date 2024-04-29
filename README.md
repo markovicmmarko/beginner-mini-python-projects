@@ -4,4 +4,4 @@
 
 >> library.py - This Python program implements a simple library management system. It defines classes for books and libraries. Users can add, edit, delete books, or list all books in the library through a menu-driven interface. The code ensures proper handling of book operations, including editing books by updating titles correctly within the library's list.
 
->> app3.py - This Python code defines an HTTP server using http.server module, handling GET requests. It displays guitar details from a model dictionary based on query parameters, serving dynamically generated HTML content.
+>> gitare - This project consists of a simple HTTP server written in Python using http.server module, managing a collection of guitars. The server responds to GET requests by displaying guitar information and allows adding new guitars via POST requests. The HTML file provides a form to submit guitar details.
