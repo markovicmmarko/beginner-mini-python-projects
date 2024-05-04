@@ -1,0 +1,4 @@
+bushido,tigar
+dario,kumtigar
+bata,batoni
+mita,glava
