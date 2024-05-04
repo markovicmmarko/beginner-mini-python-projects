@@ -5,3 +5,5 @@
 >> library.py - This Python program implements a simple library management system. It defines classes for books and libraries. Users can add, edit, delete books, or list all books in the library through a menu-driven interface. The code ensures proper handling of book operations, including editing books by updating titles correctly within the library's list.
 
 >> gitare - This project consists of a simple HTTP server written in Python using http.server module, managing a collection of guitars. The server responds to GET requests by displaying guitar information and allows adding new guitars via POST requests. The HTML file provides a form to submit guitar details.
+
+>> cookies - This Python code establishes a basic HTTP server handling user authentication and session management. It uses cookies for session tracking, authenticates users with username-password pairs stored in a file, and grants access to a webpage displaying a welcome message and event data upon successful login.
