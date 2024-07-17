@@ -7,3 +7,5 @@
 >> gitare - This project consists of a simple HTTP server written in Python using http.server module, managing a collection of guitars. The server responds to GET requests by displaying guitar information and allows adding new guitars via POST requests. The HTML file provides a form to submit guitar details.
 
 >> cookies - This Python code establishes a basic HTTP server handling user authentication and session management. It uses cookies for session tracking, authenticates users with username-password pairs stored in a file, and grants access to a webpage displaying a welcome message and event data upon successful login.
+
+>> quiz2 - This is the most basic quiz game which reads questions and answers from a CSV file. It prompts the user to play, compares their answers to the correct ones, and provides feedback. Case and whitespace are handled for accuracy. At the end, it calculates and displays the percentage of correct answers.
