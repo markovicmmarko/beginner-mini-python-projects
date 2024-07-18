@@ -9,3 +9,5 @@
 >> cookies - This Python code establishes a basic HTTP server handling user authentication and session management. It uses cookies for session tracking, authenticates users with username-password pairs stored in a file, and grants access to a webpage displaying a welcome message and event data upon successful login.
 
 >> quiz2 - This is the most basic quiz game which reads questions and answers from a CSV file. It prompts the user to play, compares their answers to the correct ones, and provides feedback. Case and whitespace are handled for accuracy. At the end, it calculates and displays the percentage of correct answers.
+
+>> ran_nums.py - This Python code prompts the user to choose a top range number for a random number guessing game. The program generates a random number within this range and allows the user to guess it. Feedback is provided for each guess, and the game tracks the number of attempts until the correct guess.
