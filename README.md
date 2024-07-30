@@ -13,3 +13,5 @@
 >> ran_nums.py - This Python code prompts the user to choose a top range number for a random number guessing game. The program generates a random number within this range and allows the user to guess it. Feedback is provided for each guess, and the game tracks the number of attempts until the correct guess.
 
 >> jmbg - This mini project features an authentication system, utilizing the Fernet module for secure data handling. The "app.py" file authenticates users by checking their credentials against those stored in the "admins.txt" file. The file contains usernames and encrypted passwords. The system returns specific codes based on whether the username exists and if the provided password matches the stored one, ensuring secure authentication.
+
+>> dice.py - This is a dice game for 1-4 players. Players roll a die to accumulate points, aiming not to exceed a maximum score of 49. If a player rolls a 1, their turn ends with a score of 0. The game continues until each player finishes, and the scores are displayed at the end.
