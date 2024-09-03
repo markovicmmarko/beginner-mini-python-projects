@@ -1,23 +1,3 @@
-# true = ["T","R","U","E"]
-# ime = "tigar"
-# count_true = [0,0,0,0]
-
-# for idx,i in enumerate(true):
-#     for j in ime:
-#         if i.lower() == j:
-#             count_true[idx] += 1
-
-# for letter, times in zip(true,count_true):
-#     if times == 1:
-#         print(f"Letter {letter} occurs {times} time")
-#     else:
-#         print(f"Letter {letter} occurs {times} times")
-
-# total_true = str(sum(count_true))
-# print(type(total_true))
-
-
-
 
 def love_score(name1, name2):
     mixed_name = name1 + name2
@@ -54,7 +34,7 @@ def love_score(name1, name2):
     print(f"Love Score = {total_true+total_love}")
 
 
-love_score(name1="kanye west", name2="kim kardashian")
+love_score(name1="", name2="")
 
 
 
