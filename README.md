@@ -17,3 +17,5 @@
 >> dice.py - This is a dice game for 1-4 players. Players roll a die to accumulate points, aiming not to exceed a maximum score of 49. If a player rolls a 1, their turn ends with a score of 0. The game continues until each player finishes, and the scores are displayed at the end.
 
 >> passwd2.py - This Python script generates a random password based on user input for the number of letters, symbols, and numbers. It uses the `random` and `string` modules to select characters, shuffles them, and then combines them into a single string to form the final password.
+
+>> love_calc.py - The "love_calc.py" script is a straightforward and fun "love calculator" that counts the occurrences of letters from "TRUE" and "LOVE" in two concatenated names to calculate a "love score." The logic is clear, with a well-structured function (love_score) and readable output, making it easy to understand and reuse for different name combinations.
