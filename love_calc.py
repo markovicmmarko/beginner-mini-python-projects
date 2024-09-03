@@ -1,4 +1,3 @@
-
 def love_score(name1, name2):
     mixed_name = name1 + name2
     true = ["T","R","U","E"]
@@ -24,12 +23,14 @@ def love_score(name1, name2):
             print(f"Letter {letter} occurs 1 time.")
         else:
             print(f"Letter {letter} occurs {times} times.")
+    print(f"Total = {total_true}")
 
     for letter,times in zip(love, count_love):
         if times == 1:
             print(f"Letter {letter} occurs 1 time.")
         else:
             print(f"Letter {letter} occurs {times} times.")
+    print(f"Total = {total_love}")
 
     print(f"Love Score = {total_true+total_love}")
 
