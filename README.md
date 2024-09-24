@@ -19,3 +19,5 @@
 >> passwd2.py - This Python script generates a random password based on user input for the number of letters, symbols, and numbers. It uses the `random` and `string` modules to select characters, shuffles them, and then combines them into a single string to form the final password.
 
 >> love_calc.py - The "love_calc.py" script is a straightforward and fun "love calculator" that counts the occurrences of letters from "TRUE" and "LOVE" in two concatenated names to calculate a "love score." The logic is clear, with a well-structured function (love_score) and readable output, making it easy to understand and reuse for different name combinations.
+
+>> turtle_race.py - This Python program uses the `turtle` module to simulate a turtle race. The user is prompted to bet on one of six colored turtles: red, orange, yellow, green, blue, or purple. The turtles race across the screen, and the first to reach the finish line wins. If the user's chosen turtle wins, a victory message is displayed. Otherwise, the user is informed they lost.
