@@ -1,25 +1,23 @@
-import string,random
-
-letters = list(string.ascii_letters)
-symbols = list(string.punctuation)
-numbers = ["0","1","2","3","4","5","6","7","8","9"]
+import random
+import string
 
 
-def pwd_gen_mix():
-    slova = int(input("How many letters would you like your password to contain? "))
-    simboli = int(input("How many symbols would you like your password to contain? "))
-    brojevi = int(input("How many numbers would you like your password to contain? "))
-    password = []
-    lts = random.sample(letters, slova)
-    syms = random.sample(symbols, simboli)
-    nms = random.sample(numbers, brojevi)
-    password.extend(lts)
-    password.extend(syms)
-    password.extend(nms)
+def password_generator():
+    letters = list(string.ascii_letters)
+    numbers = list(string.digits)
+    symbols = list(string.punctuation)
+
+    nr_letters = int(input("How many letters would you like in your password?\n"))
+    nr_numbers = int(input("How many numbers would you like?\n"))
+    nr_symbols = int(input("How many symbols would you like?\n"))
+    
+    password_letters = random.sample(letters, nr_letters)
+    password_numbers = random.sample(numbers, nr_numbers)
+    password_symbols = random.sample(symbols, nr_symbols)
+    password = password_letters + password_numbers + password_symbols
     random.shuffle(password)
-    mix_password = "".join(password)
+    final_password = "".join(password)
+    return final_password
 
-    return mix_password
-
-sifra = pwd_gen_mix()
-print(sifra)    
+sifra = password_generator()
+print(sifra)
