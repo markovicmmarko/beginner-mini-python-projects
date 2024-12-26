@@ -2,7 +2,9 @@ import string
 from typing import Literal
 
 
-def cipher(word, shift:int, mode:Literal["encrypt","decrypt"]):
+def cipher(word:str, shift:int, mode:Literal["encrypt","decrypt"]):
+    if not word.isalpha():
+        raise ValueError("Word must contain only letters, obviously.")
     if not 0 < shift < 26:
         raise ValueError("Shift must be between 1 and 25.")
     if mode not in ("encrypt", "decrypt"):
